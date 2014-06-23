@@ -69,7 +69,8 @@ class WPTechwatchNewsletterPlugin {
 			'query_var' => true,
 			'can_export' => true,
 			'rewrite' => true,
-			'capability_type' => 'post'
+			'capability_type' => 'post',
+			'menu_icon' => 'dashicons-hammer'
 		);
 		register_post_type( 'techwatch', $args );
 
