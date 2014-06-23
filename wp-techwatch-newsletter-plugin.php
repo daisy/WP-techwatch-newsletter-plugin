@@ -58,7 +58,7 @@ class WPTechwatchNewsletterPlugin {
 		$args = array(
 			'labels' => $labels,
 			'hierarchical' => false,
-			'supports' => array( 'title', 'editor', 'author', 'custom-fields', 'revisions' ),
+			'supports' => array( 'title',  'author', 'custom-fields', 'revisions' ), // 'editor',
 			'public' => true,
 			'show_ui' => true,
 			'show_in_menu' => true,
