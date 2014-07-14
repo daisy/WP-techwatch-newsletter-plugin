@@ -5,7 +5,7 @@ Plugin Name: WP Techwatch Newsletter Plugin
 Plugin URI: http://www.daisy.org/
 Description: Used by millions to make WP better.
 Author: Bradford Knowton
-Version: 1.17
+Version: 1.18
 Author URI: http://bradknowlton.com/
 License: GPLv2 or later
 GitHub Plugin URI: https://github.com/daisy/WP-techwatch-newsletter-plugin
@@ -76,7 +76,6 @@ class WPTechwatchNewsletterPlugin {
 		register_post_type( 'techwatch', $args );
 
 	}
-
 
 	/**
 	 * Registers and enqueues stylesheets for the administration panel and the
